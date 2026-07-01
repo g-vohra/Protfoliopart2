@@ -1,0 +1,94 @@
+/* Skills as a bento: a wide intro tile over a row of category tiles. */
+
+.skills-intro-tile {
+  text-align: left;
+}
+
+.skills-intro-tile p {
+  /* Swapped to main text color, but used a slightly lighter weight for an editorial look */
+  color: var(--text);
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 400;
+  line-height: 1.6;
+  letter-spacing: -0.01em;
+}
+
+/* Optional: if you have a strong introductory statement or hook */
+.skills-intro-tile p::first-line {
+  font-weight: 600;
+  letter-spacing: -0.02em;
+}
+
+.skill-category-tile {
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-4);
+}
+
+.skill-category-title {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--text); /* Ensured crisp contrast against dark surface */
+  letter-spacing: -0.02em; /* Tighter tracking for premium feel */
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+}
+
+/* Technical touch: Add an engineering marker or line before category titles */
+.skill-category-title::before {
+  content: '//';
+  font-family: var(--font-mono);
+  color: var(--accent);
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.skill-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-5) var(--space-4);
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-3); /* Slightly more breathing room for text alignment */
+  width: 84px;
+  cursor: pointer;
+}
+
+.skill-item img {
+  height: 44px; /* Slightly scaled down for tighter UI balance */
+  width: 44px;
+  object-fit: contain;
+  filter: grayscale(20%) contrast(95%); /* Matches modern subtle dev tool styling */
+  transition: transform var(--dur) var(--ease), filter var(--dur) var(--ease);
+}
+
+.skill-item span {
+  font-family: var(--font-sans);
+  font-size: 0.8rem;
+  font-weight: 500; /* Bumped weight so small text doesn't look washed out */
+  color: var(--text-muted);
+  text-align: center;
+  line-height: 1.2;
+  /* Added smooth transition so text responds when the card is hovered */
+  transition: color var(--dur) var(--ease), transform var(--dur) var(--ease);
+}
+
+/* Dynamic Text State: Text wakes up on hover alongside the image */
+.skill-item:hover img {
+  transform: translateY(-4px) scale(1.05);
+  filter: grayscale(0%) contrast(100%); /* Pops into full color on active focus */
+}
+
+.skill-item:hover span {
+  color: var(--text); /* Changes to clear high-contrast white/charcoal */
+  transform: translateY(-2px);
+}
