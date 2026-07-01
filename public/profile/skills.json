@@ -1,0 +1,75 @@
+{
+    "intro": "Proficient in full-stack software development using C#, ASP.NET MVC, Python, JavaScript, Node.js, React, and Vue.js, with experience designing SQL databases, developing REST APIs, and building cloud-based applications. Skilled in AI integration, software testing, Git, CI/CD pipelines, Agile development, and collaborating with cross-functional teams to deliver scalable, high-quality software solutions.",
+    "skills": [{
+     
+            "title": "Programming",
+            "items" : [
+     
+                {
+                    "icon": "images/skills/java.png",
+                    "title": "Java"
+                },
+
+                {
+                    "icon": "images/skills/js.png",
+                    "title": "JavaScript"
+                },
+                {
+                    "icon": "images/skills/python.png",
+                    "title": "Python"
+                },
+                {
+                    "icon": "images/skills/csharp.png",
+                    "title": "C#"
+                }
+
+
+        ]},
+        {
+            "title": "Frameworks",
+            "items" : [
+
+                {
+                    "icon": "images/skills/react.png",
+                    "title": "React"
+                },
+                {
+                    "icon": "images/skills/nodejs.png",
+                    "title": "Nodejs"
+                },
+                                {
+                    "icon": "images/skills/.net.png",
+                    "title": "ASP.NET MVC"
+                },
+                                                {
+                    "icon": "images/skills/vue.png",
+                    "title": "Vue.js"
+                }
+
+
+            ]
+        },
+        {
+            "title" : "Tools & Platforms",
+            "items": [
+                                {
+                    "icon": "images/skills/azure.png",
+                    "title": "Azure DevOps"
+                },
+                
+                {
+                    "icon": "images/skills/git.png",
+                    "title": "Git"
+                },
+                {
+                    "icon": "images/skills/SQL.png",
+                    "title": "SQL Server Managemnt Studio"
+                },
+                                {
+                    "icon": "images/skills/ai.png",
+                    "title": "Azure AI Tools"
+                }
+
+            ]
+    }
+]}

@@ -1,0 +1,29 @@
+{
+  "experiences": [
+    {
+      "title": "Software Engineer",
+      "subtitle": "Bendigo Kangan Institute",
+      "workType": "Intern",
+      "workDescription": [
+        "Updated and added new features to live full-stack web applications using C# and Microsoft ASP.NET MVC.",
+        "Contributed to database design, queries, and data integration using SQL Server Management.",
+        "Communicated technical concepts and progress updates to software developers and non-technical stakeholders.",
+        "Managed version control with SourceTree and implemented CI/CD pipelines using Azure DevOps and TeamCity.",
+        "Contributed to BKI's AI Automation project by implementing Microsoft Azure AI tools to automate manual document checks, reducing manual work for employees."
+      ],
+      "dateText": "23/02/2026 - 23/05/2026"
+    },
+    {
+      "title": "Software Engineer",
+      "subtitle": "NuMosaic Group Pty Ltd",
+      "workType": "Intern",
+      "workDescription": [
+        "Developed customized web applications and three APIs using Python and Node.js, enhancing data retrieval efficiency.",
+        "Designed and maintained SQL Server database schemas and complex queries for data integration.",
+        "Tested and debugged a Python and SQL-based inventory system, resolving over 10 critical issues and improving usability.",
+        "Implemented version control and CI/CD processes using GitHub to automate workflows and improve code quality through team code reviews."
+      ],
+      "dateText": "10/2025 - 1/02/2026"
+    }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "projects": [
+{
+  "image" : "images/projects/pf.png",
+  "title": "Personal Portfolio",
+  "bodyText": "- Developed a modern, responsive developer portfolio using React 18 and Vite.\n- Implemented a dark-first Bento UI with light/dark theme support using design-token based theming.\n- Built a data-driven architecture with JSON configuration for easy customisation and scalability.\n- Added smooth reveal animations and optimised the website for responsive performance across desktop and mobile devices.",
+  "links": [
+    {
+      "text": "GitHub",
+      "href": "https://github.com/g-vohra/Personal-Protfolio"
+    }
+  ],
+  "tags": [
+    "React 18",
+    "Vite",
+    "JavaScript",
+    "HTML",
+    "CSS",
+    "JSON"
+  ]
+},
+    {
+      "title": "Nutrition Education Website",
+      "bodyText": "- Developed a full-stack nutrition education website using Vue.js, HTML, CSS, Bootstrap, Node.js, Google Cloud, and Firebase.\n- Integrated Google AI and Mapbox APIs to provide personalised healthy restaurant recommendations based on user location.\n- Designed a responsive, user-friendly interface and implemented backend services for data management and API integration.\n- Achieved a High Distinction (80%) in the postgraduate Web Application Development unit.",
+      "links": [
+        {
+          "text": "GitHub",
+          "href": "https://github.com/g-vohra/FIT5032-A1"
+        }
+      ],
+      "tags": [
+        "Vue.js",
+        "Node.js",
+        "JavaScript",
+        "HTML",
+        "CSS",
+        "Bootstrap",
+        "Firebase",
+        "Google Cloud",
+        "Google AI",
+        "Mapbox"
+      ]
+    },
+    {
+      "title": "AI with Python – Harvard University (CS50 AI)",
+      "bodyText": "- Completed 12 AI projects covering search algorithms, machine learning, natural language processing, and deep learning.\n- Developed AI-based games including Tic-Tac-Toe and Minesweeper using Python.\n- Implemented algorithms such as Depth-First Search, Breadth-First Search, Greedy Best-First Search, and Minimax.\n- Applied object-oriented programming, data structures, graph search, and optimisation techniques to solve complex AI problems."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+    "name": "Garv Vohra",
+    "sections": [
+        {
+            "title": "Home",
+            "href": "/"
+        },
+        {
+            "title": "About",
+            "href": "/about"
+        },
+        {
+            "title": "Skills",
+            "href": "/skills"
+        },
+        {
+            "title": "Education",
+            "href": "/education"
+        },
+        {
+            "title": "Experience",
+            "href": "/experience"
+        },
+        {
+            "title": "Projects",
+            "href": "/projects"
+        },
+        {
+            "title": "LinkedIn",
+            "href": "https://www.linkedin.com/in/garv-vohra/",
+            "type": "link"
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "education":[
+        {
+            "title": "Course completed: 26/06/2026",
+            "cardTitle": "Bachelors of Software Engineering Honours",
+            "cardSubtitle":"Monash University",
+            "icon" : {
+                "src": "images/education/monash.png"
+            }
+        },
+        {
+            "title": "Certification",
+            "cardTitle": "AI with Python",
+            "cardSubtitle":"Harvard University",
+            "icon" : {
+                "src": "images/education/har.png"
+            },
+            "links": [
+                {
+                    "url": "https://tinyurl.com/garv-cs50",
+                    "text": "View Certification"
+                }
+            ]
+        }
+    ]
+}
